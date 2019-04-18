@@ -291,3 +291,52 @@ h1, h2, h3, h4, h5, h6 {
 .buttonreadmore:hover{
     background-color: black
 }
+.padding80{
+    padding: 80px 0px 80px 0px
+}
+.creativehasta{
+    padding-top: 150px;
+}
+.creativehasta h1{
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 20px
+}
+.hastaorange{
+    color: #fd602c
+}
+.creativehasta h5{
+    margin-bottom: 16px;
+    font-weight: 500;
+    line-height: 23px;
+    font-size: 18px;
+}
+.creativeicons{
+    width: 60px;
+    height: 60px;
+    font-size: 18px;
+    line-height: 58px;
+    border: 1px solid #e4e4e4;
+    color: #242424;
+    float: left;
+    margin: 15px 20px 40px 0px;
+    border-radius: 100%;
+    text-align: center;
+}
+.clearleft{
+    clear: left
+}
+.viewprojects{
+    color: #fff;
+    background-color: #fd602c;
+    border-radius: 20px;
+    padding: 10px 36px;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+}
+.viewprojects:hover{
+    background-color: black
+}
+.col-7 img{
+    width: 100%
+}
