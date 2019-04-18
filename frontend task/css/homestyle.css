@@ -337,6 +337,42 @@ h1, h2, h3, h4, h5, h6 {
 .viewprojects:hover{
     background-color: black
 }
-.col-7 img{
+.creativehastaimage{
     width: 100%
+}
+.imgcard{
+    transition: all 0.3s ease-out 0s
+}
+.imgcard img{
+    max-width: 100%;
+    transition: all 0.3s ease-out 0s;
+}
+.imgcard img:hover{
+    transform: scale(1.1, 1.1);
+	transition: all 0.3s ease 0s;
+}
+.textofcard{
+    position: relative;
+    bottom: 0;
+    padding: 40px;
+    border: 1px solid #e4e4e4;
+    background-color: #fff;
+    transition: all 0.3s ease-out 0s;
+    text-align: center
+}
+.textofcard:hover{
+    border-top: 1px solid #e4e4e4;
+	bottom: 100px;
+	transition: all 0.3s ease-out 0s;
+}
+.textofcard h5{
+    margin-bottom: 5px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.textofcard span{
+    color: #fd602c
+}
+.textofcard p{
+    margin: 0 0 10px
 }
